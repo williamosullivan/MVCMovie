@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using MvcMovie.Models;
+using MVCMovie.Models;
 
-namespace MvcMovie.Controllers
+namespace MVCMovie.Controllers
 {
     [Authorize]
     public class AccountController : Controller

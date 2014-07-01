@@ -7,9 +7,9 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
-using MvcMovie.Models;
+using MVCMovie.Models;
 
-namespace MvcMovie
+namespace MVCMovie
 {
     public partial class Startup
     {
