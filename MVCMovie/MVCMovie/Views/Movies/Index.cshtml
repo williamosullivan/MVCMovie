@@ -4,17 +4,11 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
-
+<h2>Movies</h2>
+   
 <p>
-    <select name="Genre">
-        <option value="action">Action</option>
-        <option value="comedy">Comedy</option>
-        <option value="horror">Horror</option>
-        <option value="scifi">Science Fiction</option>
-        <option value="drama">Drama</option>
-        <option value="documentary">Documentary</option>
-    </select><br/>
+    Filter by Genre: @Html.DropDownList("Genre List", (IEnumerable<SelectListItem>)ViewBag.movieGenre)
+    <br/>
     @Html.ActionLink("Create New", "Create")
    
 </p>
